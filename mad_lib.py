@@ -30,9 +30,6 @@ def word_transformer(word):
         
 def process_madlib(mad_lib):
     processed = ""
-    # your code here
-    # you may find the built-in len function useful for this quiz
-    # documentation: https://docs.python.org/2/library/functions.html#len
     index = 0
     while index<len(mad_lib):
         testWindow = mad_lib[index:index+4]
